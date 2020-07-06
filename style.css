@@ -186,6 +186,7 @@ img.image-enhanced {
 
 iframe { 
   border-radius: 8px;
+  border: 1px solid #49274A;
   }
 
 /* Contact Form Design */
