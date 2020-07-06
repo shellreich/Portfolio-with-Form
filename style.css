@@ -1,0 +1,217 @@
+
+/* -------  General Styles ------- */
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #F8EEE7;
+}
+
+header {
+  background-color: #49274A;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-family: cursive, georgia, serif;
+  font-size: 30px;
+  color: #F8EEE7;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-weight: 200;
+}
+
+/* ---  Navigation --- */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #F8EEE7;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: cursive, georgia, serif;
+}
+
+header nav ul li a:hover {
+  color: rgb(230, 161, 113);
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 38px;
+    font-weight: 200;
+  }
+
+  
+  header nav {
+    margin-top: 14px;
+
+  }
+
+
+/* ---  Primary Groups --- */
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+section.dark-background {   
+  background-color: rgba(148, 97, 142, 0.699);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 80px 0;
+
+}
+
+footer {
+  background-color: #49274A;
+  margin-top: 40px;
+  margin-bottom: 0;
+  
+}
+
+/* ---  Typography --- */
+
+h1 {
+  font-size: 26px;
+  font-family: cursive, georgia, serif;
+  font-weight: 300;
+  color: #49274A;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: cursive, georgia, serif;
+  font-weight: 400;
+  margin: 0 10px;
+  color: #49274A;
+
+}
+
+h3 {
+  font-size: 18px;
+  font-family: cursive, georgia, serif;
+  font-weight: 500;
+}
+
+p {
+ font-family: Helvetica, Arial, sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+main a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+/*  pseudo-classes - colors for states of links */
+main a:link    { color: #49274A; }
+main a:visited { color: #94618E;   }
+a:hover   { color: rgb(30, 56, 206); }
+a:active  { color: rgb(20, 231, 13);  }
+
+
+a:hover {
+	text-decoration: underline;	
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+main img {
+  width: 100%;
+}
+
+img.image-enhanced {
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+iframe { 
+  border-radius: 8px;
+  }
+
+/* Contact Form Design */
+
+form {
+  padding-right: 8px;
+  /* Fixed small sizing issue on the right */
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+
+
+
+
+
+
