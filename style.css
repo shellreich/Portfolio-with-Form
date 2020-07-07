@@ -160,11 +160,13 @@ img.image-enhanced {
 .group {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .item {
   flex: 1;
   margin: 10px;
+  justify-content: space-between;
 }
 
 .item-double {
